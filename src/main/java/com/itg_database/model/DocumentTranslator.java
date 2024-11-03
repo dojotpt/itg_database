@@ -1,8 +1,7 @@
-package com.itg_database.service;
+package com.itg_database.model;
 
 import ai.djl.ndarray.NDList;
 import ai.djl.translate.TranslatorContext;
-import com.itg_database.model.Detections;
 
 import java.awt.*;
 

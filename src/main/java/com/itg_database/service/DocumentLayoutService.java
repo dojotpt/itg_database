@@ -3,6 +3,7 @@ package com.itg_database.service;
 import ai.djl.inference.Predictor;
 import ai.djl.repository.zoo.Criteria;
 import com.itg_database.model.Detections;
+import com.itg_database.model.DocumentTranslator;
 import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
