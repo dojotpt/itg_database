@@ -1,11 +1,11 @@
 package com.itg_database.model;
 
 import ai.djl.ndarray.NDList;
+import ai.djl.translate.Translator;
 import ai.djl.translate.TranslatorContext;
+import ai.djl.modality.cv.Image;
 
-import java.awt.*;
-
-public class DocumentTranslator implements ai.djl.translate.Translator<java.awt.Image, com.itg_database.model.Detections> {
+public class DocumentTranslator implements Translator<Image, Detections> {
     @Override
     public Detections processOutput(TranslatorContext translatorContext, NDList ndList) throws Exception {
         return null;
